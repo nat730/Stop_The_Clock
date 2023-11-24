@@ -4,3 +4,48 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+/* rajout div myriam */
+.App { 
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #030303;
+  border-radius: 8px;
+  max-width: 400px;
+  background-color: #e1dcdc;
+}
+
+
+/* rajout div myriam */
+.Titre {
+  margin-bottom: 20px;
+  color: blue;
+}
+
+
+/* rajout div myriam */
+.Affichage_cible {
+  margin-bottom: 10px;
+  font-size: 20px; 
+}
+
+
+/* rajout div myriam */
+.Temps_seconde {
+  margin-bottom: 20px;
+  font-size: 18px; 
+}
+
+/* rajout div myriam */
+button {
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+}
+
