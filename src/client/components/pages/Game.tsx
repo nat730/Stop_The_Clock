@@ -40,10 +40,17 @@ function Chrono() {
 
   return (
     <div className="App">
-      <h1>Arrêtez le Chronomètre</h1>
-      <p>Nombre cible: {targetNumber}</p>
+      
+      <div className='Titre'> {/* rajout div myriam */}
+        <h1>Arrêtez le Chronomètre</h1>
+      </div>
+      <div className='Affichage_cible'> {/* rajout div myriam */}
+        <p>Nombre cible: {targetNumber}</p>
+      </div>
+      <div className='Temps_seconde'> {/* rajout div myriam */}
       {!isRunning && <p>Temps écoulé: {elapsedTime} secondes</p>}
       {getMessage()}
+      </div>
       <button onClick={startStopGame}>{isRunning ? 'Arrêter' : 'Démarrer'}</button>
       <button onClick={resetGame}>Réinitialiser</button>
     </div>
